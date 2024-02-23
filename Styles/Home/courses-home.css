@@ -1,0 +1,131 @@
+.courses-container{
+    
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 50px;
+  margin-top: 30px;
+  margin-bottom: 140px;
+
+}
+
+@media (max-width:1000px){
+  .courses-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.course-1{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 20px #b8b8b880;
+  min-width: 300px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+@media (max-width:1000px){
+  .course-1{
+   margin-top: 40px;
+  }
+
+  .a{
+    color: inherit;
+  }
+
+}
+
+
+.course-1:hover{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 30px #b8b8b880;
+  cursor: pointer;
+  
+}
+
+
+
+
+.course-2{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 20px #b8b8b880;
+  min-width: 300px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 40px;
+  padding-right: 40px;
+
+
+
+
+}
+
+@media (max-width:1000px){
+  .course-2{
+   margin-top: 40px;
+  }
+
+}
+
+.course-2:hover{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 30px #b8b8b880;
+  cursor: pointer;
+  
+}
+
+.course-3{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 20px #b8b8b880;
+  min-width: 300px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 40px;
+  padding-right: 40px;
+
+
+
+
+}
+
+@media (max-width:1000px){
+  .course-3{
+   margin-top: 40px;
+  }
+
+}
+
+.course-3:hover{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 30px #b8b8b880;
+
+  cursor: pointer;
+  
+}
+
+.smile{
+  width: 80px;
+}
+
+a{
+  color: inherit;
+}

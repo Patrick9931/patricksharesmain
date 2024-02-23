@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="mobile.css">
+
+<style>
+
+@media (max-width:900px){
+
+  .main-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .course-box{
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: fit-content;
+  border-radius: 15px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.178);
+
+  padding-bottom: 30px;
+
+}
+
+.img-mobile{
+ max-width: 100%;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+
+}
+
+.text{
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+  width: 100%;
+  height: 200px;
+
+  padding-bottom: 30px;
+  
+
+}
+
+h1, h3, p{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.free-mobile{
+  position: absolute;
+  right:10px;
+
+  font-size: 1.125em;
+  letter-spacing: -0.02em;
+  color: var(--color-default);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7;
+  font-size: 1.125em;
+  font-weight: 600;
+}
+
+}
+
+@media (min-width:900px){
+  .course-box{
+    display: none;
+  }
+}
+
+
+
+</style>
+
+</head>
+<body>
+<div class="parent">
+  <a href="psychedelicbeginner.html" style="text-decoration: none; color: inherit;">
+    <div class="course-box">
+      <img class="img-mobile" src="Images/white-rabbit.png">
+      <div class="text">
+        <h1>Beginner Psychonaut mini-Course</h1>
+        <p>How to safely use psychedelics to transform your life</p>
+        <p class="free-mobile">FREE</p>
+  
+      </div> 
+    </div>
+  </a>
+
+
+</div>
+
+
+
+
+
+</body>

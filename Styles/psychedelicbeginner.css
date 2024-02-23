@@ -1,0 +1,11 @@
+h1, h3, li, p{
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.main-container{
+  min-height: 1000px;
+  padding-top: 20px;
+}
+

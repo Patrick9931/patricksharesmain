@@ -1,0 +1,62 @@
+.main-nav{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 14px;
+  font-weight: 250;
+
+  
+  padding-top: 15px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  font-size: larger;
+  align-items: center;
+  padding-bottom: 15px;
+
+
+
+}
+
+.home, .blog, .about, .courses, .buy, .contact:hover{
+  cursor: pointer;
+}
+
+
+
+@media (min-width: 900px){
+.hamburger{
+  display: none;
+
+}}
+
+@media (max-width: 900px){
+
+  .main-nav{
+    background-color:rgba(243, 243, 243, 0.825);
+
+  }
+
+  .home, .about, .courses, .buy, .contact, .hireme, .blog{
+    display: none;
+
+
+  }
+
+  .hamburger{
+    display: flex;
+    position: absolute;
+    right: 30px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg);
+    background-size: cover;
+             width: 20px;
+            height: 20px;
+            font-size: 2rem;
+    border:none;
+    background-color: transparent;
+    text-decoration:none;
+    color: transparent;
+
+
+  }
+ 
+  }

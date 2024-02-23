@@ -1,0 +1,85 @@
+.about-container{
+  display: inline-block;
+  margin-top: 50px;
+  background-color: white;
+  margin: auto;
+  height: auto;
+  width: fit-content;
+  padding-bottom: 120px;
+}
+
+
+
+.about-image{
+  width: 650px;
+}
+
+@media (max-width:900px){
+  .about-image{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .about-text-container{
+    width:92%;
+   
+  }
+}
+
+.about-text-container{
+  max-width: 600px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 60px;
+}
+
+.paragraph{
+  font-size: 1.125em;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--color-default);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7;
+  font-size: 1.125em;
+}
+
+.header{
+  font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    line-height: 45px;
+    font-size: 32px;
+}
+
+.image-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steve-jobs{
+  width: 200px;
+}
+
+.paragraph-quote{
+  font-size: 1.25em;
+  font-weight: 450;
+  letter-spacing: -0.02em;
+  color: var(--color-default);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7;
+  font-size: 1.125em;
+
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+
+.free-session{
+   margin-top: 30px;
+}

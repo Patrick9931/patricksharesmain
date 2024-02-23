@@ -1,0 +1,42 @@
+body{
+  font-family: 'Inter', sans-serif;
+  background-color:#dee2e626;
+  margin:0;
+  padding:0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+
+p{
+  margin: 0px;
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+a{
+  color: inherit;
+}
+
+header{
+  font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    line-height: 45px;
+    font-size: 32px;
+}
+
+p{
+  font-size: 1.125em;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--color-default);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7;
+  font-size: 1.125em;
+}
